@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F8093A2B0F93E200E02CFC /* latihan_brewery_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F809392B0F93E200E02CFC /* latihan_brewery_appApp.swift */; };
+		01F8093C2B0F93E200E02CFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F8093B2B0F93E200E02CFC /* ContentView.swift */; };
+		01F8093E2B0F93E300E02CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F8093D2B0F93E300E02CFC /* Assets.xcassets */; };
+		01F809412B0F93E300E02CFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F809402B0F93E300E02CFC /* Preview Assets.xcassets */; };
+		01F8094B2B0F93E300E02CFC /* latihan_brewery_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F8094A2B0F93E300E02CFC /* latihan_brewery_appTests.swift */; };
+		01F809552B0F93E300E02CFC /* latihan_brewery_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F809542B0F93E300E02CFC /* latihan_brewery_appUITests.swift */; };
+		01F809572B0F93E300E02CFC /* latihan_brewery_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F809562B0F93E300E02CFC /* latihan_brewery_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01F809472B0F93E300E02CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01F8092E2B0F93E200E02CFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F809352B0F93E200E02CFC;
+			remoteInfo = "latihan-brewery-app";
+		};
+		01F809512B0F93E300E02CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01F8092E2B0F93E200E02CFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F809352B0F93E200E02CFC;
+			remoteInfo = "latihan-brewery-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F809362B0F93E200E02CFC /* latihan-brewery-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "latihan-brewery-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F809392B0F93E200E02CFC /* latihan_brewery_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latihan_brewery_appApp.swift; sourceTree = "<group>"; };
+		01F8093B2B0F93E200E02CFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		01F8093D2B0F93E300E02CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01F809402B0F93E300E02CFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01F809462B0F93E300E02CFC /* latihan-brewery-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "latihan-brewery-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F8094A2B0F93E300E02CFC /* latihan_brewery_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latihan_brewery_appTests.swift; sourceTree = "<group>"; };
+		01F809502B0F93E300E02CFC /* latihan-brewery-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "latihan-brewery-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F809542B0F93E300E02CFC /* latihan_brewery_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latihan_brewery_appUITests.swift; sourceTree = "<group>"; };
+		01F809562B0F93E300E02CFC /* latihan_brewery_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latihan_brewery_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01F809332B0F93E200E02CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F809432B0F93E300E02CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F8094D2B0F93E300E02CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F8092D2B0F93E200E02CFC = {
+			isa = PBXGroup;
+			children = (
+				01F809382B0F93E200E02CFC /* latihan-brewery-app */,
+				01F809492B0F93E300E02CFC /* latihan-brewery-appTests */,
+				01F809532B0F93E300E02CFC /* latihan-brewery-appUITests */,
+				01F809372B0F93E200E02CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01F809372B0F93E200E02CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01F809362B0F93E200E02CFC /* latihan-brewery-app.app */,
+				01F809462B0F93E300E02CFC /* latihan-brewery-appTests.xctest */,
+				01F809502B0F93E300E02CFC /* latihan-brewery-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01F809382B0F93E200E02CFC /* latihan-brewery-app */ = {
+			isa = PBXGroup;
+			children = (
+				01F809392B0F93E200E02CFC /* latihan_brewery_appApp.swift */,
+				01F8093B2B0F93E200E02CFC /* ContentView.swift */,
+				01F8093D2B0F93E300E02CFC /* Assets.xcassets */,
+				01F8093F2B0F93E300E02CFC /* Preview Content */,
+			);
+			path = "latihan-brewery-app";
+			sourceTree = "<group>";
+		};
+		01F8093F2B0F93E300E02CFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				01F809402B0F93E300E02CFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01F809492B0F93E300E02CFC /* latihan-brewery-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				01F8094A2B0F93E300E02CFC /* latihan_brewery_appTests.swift */,
+			);
+			path = "latihan-brewery-appTests";
+			sourceTree = "<group>";
+		};
+		01F809532B0F93E300E02CFC /* latihan-brewery-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01F809542B0F93E300E02CFC /* latihan_brewery_appUITests.swift */,
+				01F809562B0F93E300E02CFC /* latihan_brewery_appUITestsLaunchTests.swift */,
+			);
+			path = "latihan-brewery-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01F809352B0F93E200E02CFC /* latihan-brewery-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F8095A2B0F93E300E02CFC /* Build configuration list for PBXNativeTarget "latihan-brewery-app" */;
+			buildPhases = (
+				01F809322B0F93E200E02CFC /* Sources */,
+				01F809332B0F93E200E02CFC /* Frameworks */,
+				01F809342B0F93E200E02CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "latihan-brewery-app";
+			productName = "latihan-brewery-app";
+			productReference = 01F809362B0F93E200E02CFC /* latihan-brewery-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01F809452B0F93E300E02CFC /* latihan-brewery-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F8095D2B0F93E300E02CFC /* Build configuration list for PBXNativeTarget "latihan-brewery-appTests" */;
+			buildPhases = (
+				01F809422B0F93E300E02CFC /* Sources */,
+				01F809432B0F93E300E02CFC /* Frameworks */,
+				01F809442B0F93E300E02CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F809482B0F93E300E02CFC /* PBXTargetDependency */,
+			);
+			name = "latihan-brewery-appTests";
+			productName = "latihan-brewery-appTests";
+			productReference = 01F809462B0F93E300E02CFC /* latihan-brewery-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01F8094F2B0F93E300E02CFC /* latihan-brewery-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F809602B0F93E300E02CFC /* Build configuration list for PBXNativeTarget "latihan-brewery-appUITests" */;
+			buildPhases = (
+				01F8094C2B0F93E300E02CFC /* Sources */,
+				01F8094D2B0F93E300E02CFC /* Frameworks */,
+				01F8094E2B0F93E300E02CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F809522B0F93E300E02CFC /* PBXTargetDependency */,
+			);
+			name = "latihan-brewery-appUITests";
+			productName = "latihan-brewery-appUITests";
+			productReference = 01F809502B0F93E300E02CFC /* latihan-brewery-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01F8092E2B0F93E200E02CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					01F809352B0F93E200E02CFC = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					01F809452B0F93E300E02CFC = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 01F809352B0F93E200E02CFC;
+					};
+					01F8094F2B0F93E300E02CFC = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 01F809352B0F93E200E02CFC;
+					};
+				};
+			};
+			buildConfigurationList = 01F809312B0F93E200E02CFC /* Build configuration list for PBXProject "latihan-brewery-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01F8092D2B0F93E200E02CFC;
+			productRefGroup = 01F809372B0F93E200E02CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01F809352B0F93E200E02CFC /* latihan-brewery-app */,
+				01F809452B0F93E300E02CFC /* latihan-brewery-appTests */,
+				01F8094F2B0F93E300E02CFC /* latihan-brewery-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01F809342B0F93E200E02CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F809412B0F93E300E02CFC /* Preview Assets.xcassets in Resources */,
+				01F8093E2B0F93E300E02CFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F809442B0F93E300E02CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F8094E2B0F93E300E02CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F809322B0F93E200E02CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F8093C2B0F93E200E02CFC /* ContentView.swift in Sources */,
+				01F8093A2B0F93E200E02CFC /* latihan_brewery_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F809422B0F93E300E02CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F8094B2B0F93E300E02CFC /* latihan_brewery_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F8094C2B0F93E300E02CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F809552B0F93E300E02CFC /* latihan_brewery_appUITests.swift in Sources */,
+				01F809572B0F93E300E02CFC /* latihan_brewery_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01F809482B0F93E300E02CFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01F809352B0F93E200E02CFC /* latihan-brewery-app */;
+			targetProxy = 01F809472B0F93E300E02CFC /* PBXContainerItemProxy */;
+		};
+		01F809522B0F93E300E02CFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01F809352B0F93E200E02CFC /* latihan-brewery-app */;
+			targetProxy = 01F809512B0F93E300E02CFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01F809582B0F93E300E02CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01F809592B0F93E300E02CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01F8095B2B0F93E300E02CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"latihan-brewery-app/Preview Content\"";
+				DEVELOPMENT_TEAM = AM6VA3PX3M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.safik.latihan-brewery-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01F8095C2B0F93E300E02CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"latihan-brewery-app/Preview Content\"";
+				DEVELOPMENT_TEAM = AM6VA3PX3M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.safik.latihan-brewery-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01F8095E2B0F93E300E02CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM6VA3PX3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.safik.latihan-brewery-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/latihan-brewery-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/latihan-brewery-app";
+			};
+			name = Debug;
+		};
+		01F8095F2B0F93E300E02CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM6VA3PX3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.safik.latihan-brewery-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/latihan-brewery-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/latihan-brewery-app";
+			};
+			name = Release;
+		};
+		01F809612B0F93E300E02CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM6VA3PX3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.safik.latihan-brewery-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "latihan-brewery-app";
+			};
+			name = Debug;
+		};
+		01F809622B0F93E300E02CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM6VA3PX3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.safik.latihan-brewery-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "latihan-brewery-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F809312B0F93E200E02CFC /* Build configuration list for PBXProject "latihan-brewery-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F809582B0F93E300E02CFC /* Debug */,
+				01F809592B0F93E300E02CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F8095A2B0F93E300E02CFC /* Build configuration list for PBXNativeTarget "latihan-brewery-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F8095B2B0F93E300E02CFC /* Debug */,
+				01F8095C2B0F93E300E02CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F8095D2B0F93E300E02CFC /* Build configuration list for PBXNativeTarget "latihan-brewery-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F8095E2B0F93E300E02CFC /* Debug */,
+				01F8095F2B0F93E300E02CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F809602B0F93E300E02CFC /* Build configuration list for PBXNativeTarget "latihan-brewery-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F809612B0F93E300E02CFC /* Debug */,
+				01F809622B0F93E300E02CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01F8092E2B0F93E200E02CFC /* Project object */;
+}
